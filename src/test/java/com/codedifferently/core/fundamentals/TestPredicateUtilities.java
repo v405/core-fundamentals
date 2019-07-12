@@ -104,7 +104,7 @@ public class TestPredicateUtilities {
         boolean outcome = predicateUtilities.isLessThanOrEqualTo(greaterValue, lesserValue);
 
         // : Then
-        assertFalse(outcome);
+        assertFalse(outcome); //unknown error moving on for now
     }
 
     @Test
